@@ -61,7 +61,22 @@ jarvis/
 
 ---
 
-## 4. Bootstrapping a New Workspace
+## 4. Graphify Knowledge Retrieval (Mandatory First Step)
+
+**Prerequisite:** Ensure `graphify` is installed (`which graphify`) and the graph has been built (`graphify update .` from project root).
+
+- **Session start** → run `graphify update .` (fast AST re-extraction, no LLM cost)
+- **Every task/question** → run `graphify query "<the question>" --budget 2000` before grep, before guessing, before reading files
+- **Deep-dive on a concept** → `graphify explain "<node label>"`
+- **Trace relationships** → `graphify path "<A>" "<B>"`
+
+**Why:** The graph extracts entities, relationships, and cross-file connections from the entire codebase. Querying it first eliminates blind file spelunking, surfaces links `grep` won't find, and saves tokens. Fall back to `grep` only when the graph returns nothing relevant.
+
+**When the graph is stale after code changes:** run `graphify update .` again (idempotent, fast, free).
+
+---
+
+## 5. Bootstrapping a New Workspace
 
 To bootstrap a new, empty Jarvis workspace, save the following Python script as `bootstrap.py` in your target directory and run it. The script automatically creates the workspace folder structure and initializes all operational configuration files with their default clean templates.
 
@@ -650,7 +665,7 @@ print("\nBootstrap complete! Jarvis is ready to go.")
 
 ---
 
-## 5. Usage
+## 6. Usage
 
 To get started:
 1. Initialize Git if desired.
