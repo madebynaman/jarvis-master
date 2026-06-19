@@ -1,0 +1,144 @@
+{
+  "communities": {
+    "0": [
+      "bootstrap_script",
+      "jarvis_agents_md",
+      "jarvis_architecture_md",
+      "jarvis_design_md",
+      "jarvis_plan_md",
+      "jarvis_setup_md",
+      "jarvis_tasks_md",
+      "jarvis_temp"
+    ],
+    "1": [
+      "ingestion_pipeline",
+      "jarvis_map_md",
+      "jarvis_source_md",
+      "jarvis_source_raw",
+      "markitdown_tool",
+      "registry_mapping",
+      "synthesis_engine"
+    ],
+    "2": [
+      "distillation_process",
+      "forge_engine",
+      "jarvis_public",
+      "jarvis_wiki",
+      "public_promotion",
+      "query_flow"
+    ],
+    "3": [
+      "jarvis_changelog_md",
+      "jarvis_memory_md",
+      "system_tracking"
+    ]
+  },
+  "cohesion": {
+    "0": 0.4642857142857143,
+    "1": 0.3333333333333333,
+    "2": 0.4,
+    "3": 0.6666666666666666
+  },
+  "gods": [
+    {
+      "id": "jarvis_agents_md",
+      "label": "agents.md File",
+      "degree": 14
+    },
+    {
+      "id": "bootstrap_script",
+      "label": "Bootstrap Script",
+      "degree": 14
+    },
+    {
+      "id": "jarvis_wiki",
+      "label": "wiki Directory",
+      "degree": 6
+    },
+    {
+      "id": "jarvis_public",
+      "label": "public Directory",
+      "degree": 5
+    },
+    {
+      "id": "jarvis_map_md",
+      "label": "map.md File",
+      "degree": 5
+    },
+    {
+      "id": "jarvis_source_md",
+      "label": "source-md Directory",
+      "degree": 4
+    },
+    {
+      "id": "ingestion_pipeline",
+      "label": "Ingestion Pipeline",
+      "degree": 4
+    },
+    {
+      "id": "jarvis_source_raw",
+      "label": "source-raw Directory",
+      "degree": 3
+    },
+    {
+      "id": "jarvis_memory_md",
+      "label": "memory.md File",
+      "degree": 3
+    },
+    {
+      "id": "jarvis_changelog_md",
+      "label": "changelog.md File",
+      "degree": 3
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Bootstrap Script",
+      "target": "source-raw Directory",
+      "source_files": [
+        "jarvis.md",
+        "jarvis.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "creates",
+      "note": "Bridges community 1 \u2192 community 0"
+    },
+    {
+      "source": "Bootstrap Script",
+      "target": "wiki Directory",
+      "source_files": [
+        "jarvis.md",
+        "jarvis.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "creates",
+      "note": "Bridges community 2 \u2192 community 0"
+    },
+    {
+      "source": "Synthesis Engine",
+      "target": "wiki Directory",
+      "source_files": [
+        "jarvis.md",
+        "jarvis.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "writes_to",
+      "note": "Bridges community 2 \u2192 community 1"
+    },
+    {
+      "source": "changelog.md File",
+      "target": "agents.md File",
+      "source_files": [
+        "jarvis.md",
+        "jarvis.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "note": "Bridges community 0 \u2192 community 3"
+    }
+  ],
+  "tokens": {
+    "input": 8566,
+    "output": 3676
+  }
+}
