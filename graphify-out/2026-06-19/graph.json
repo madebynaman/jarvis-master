@@ -4,8 +4,60 @@
   "graph": {},
   "nodes": [
     {
-      "label": "source-raw Directory",
+      "label": "Jarvis",
+      "file_type": "concept",
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jarvis_jarvis",
+      "community": 0,
+      "norm_label": "jarvis"
+    },
+    {
+      "label": "Graphify",
       "file_type": "code",
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jarvis_graphify",
+      "community": 4,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "Markitdown",
+      "file_type": "code",
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jarvis_markitdown",
+      "community": 2,
+      "norm_label": "markitdown"
+    },
+    {
+      "label": "bootstrap.py",
+      "file_type": "code",
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jarvis_bootstrap_py",
+      "community": 0,
+      "norm_label": "bootstrap.py"
+    },
+    {
+      "label": "source-raw",
+      "file_type": "concept",
       "source_file": "jarvis.md",
       "source_location": null,
       "source_url": null,
@@ -13,12 +65,12 @@
       "author": null,
       "contributor": null,
       "id": "jarvis_source_raw",
-      "community": 1,
-      "norm_label": "source-raw directory"
+      "community": 2,
+      "norm_label": "source-raw"
     },
     {
-      "label": "source-md Directory",
-      "file_type": "code",
+      "label": "source-md",
+      "file_type": "concept",
       "source_file": "jarvis.md",
       "source_location": null,
       "source_url": null,
@@ -26,12 +78,12 @@
       "author": null,
       "contributor": null,
       "id": "jarvis_source_md",
-      "community": 1,
-      "norm_label": "source-md directory"
+      "community": 2,
+      "norm_label": "source-md"
     },
     {
-      "label": "wiki Directory",
-      "file_type": "code",
+      "label": "wiki",
+      "file_type": "concept",
       "source_file": "jarvis.md",
       "source_location": null,
       "source_url": null,
@@ -39,12 +91,12 @@
       "author": null,
       "contributor": null,
       "id": "jarvis_wiki",
-      "community": 2,
-      "norm_label": "wiki directory"
+      "community": 1,
+      "norm_label": "wiki"
     },
     {
-      "label": "public Directory",
-      "file_type": "code",
+      "label": "public",
+      "file_type": "concept",
       "source_file": "jarvis.md",
       "source_location": null,
       "source_url": null,
@@ -52,12 +104,12 @@
       "author": null,
       "contributor": null,
       "id": "jarvis_public",
-      "community": 2,
-      "norm_label": "public directory"
+      "community": 1,
+      "norm_label": "public"
     },
     {
-      "label": "temp Directory",
-      "file_type": "code",
+      "label": "temp",
+      "file_type": "concept",
       "source_file": "jarvis.md",
       "source_location": null,
       "source_url": null,
@@ -66,10 +118,10 @@
       "contributor": null,
       "id": "jarvis_temp",
       "community": 0,
-      "norm_label": "temp directory"
+      "norm_label": "temp"
     },
     {
-      "label": "map.md File",
+      "label": "map.md",
       "file_type": "code",
       "source_file": "jarvis.md",
       "source_location": null,
@@ -79,10 +131,10 @@
       "contributor": null,
       "id": "jarvis_map_md",
       "community": 1,
-      "norm_label": "map.md file"
+      "norm_label": "map.md"
     },
     {
-      "label": "agents.md File",
+      "label": "agents.md",
       "file_type": "code",
       "source_file": "jarvis.md",
       "source_location": null,
@@ -91,11 +143,11 @@
       "author": null,
       "contributor": null,
       "id": "jarvis_agents_md",
-      "community": 0,
-      "norm_label": "agents.md file"
+      "community": 3,
+      "norm_label": "agents.md"
     },
     {
-      "label": "design.md File",
+      "label": "design.md",
       "file_type": "code",
       "source_file": "jarvis.md",
       "source_location": null,
@@ -105,10 +157,10 @@
       "contributor": null,
       "id": "jarvis_design_md",
       "community": 0,
-      "norm_label": "design.md file"
+      "norm_label": "design.md"
     },
     {
-      "label": "architecture.md File",
+      "label": "architecture.md",
       "file_type": "code",
       "source_file": "jarvis.md",
       "source_location": null,
@@ -118,10 +170,10 @@
       "contributor": null,
       "id": "jarvis_architecture_md",
       "community": 0,
-      "norm_label": "architecture.md file"
+      "norm_label": "architecture.md"
     },
     {
-      "label": "setup.md File",
+      "label": "setup.md",
       "file_type": "code",
       "source_file": "jarvis.md",
       "source_location": null,
@@ -131,49 +183,10 @@
       "contributor": null,
       "id": "jarvis_setup_md",
       "community": 0,
-      "norm_label": "setup.md file"
+      "norm_label": "setup.md"
     },
     {
-      "label": "memory.md File",
-      "file_type": "code",
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "jarvis_memory_md",
-      "community": 3,
-      "norm_label": "memory.md file"
-    },
-    {
-      "label": "changelog.md File",
-      "file_type": "code",
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "jarvis_changelog_md",
-      "community": 3,
-      "norm_label": "changelog.md file"
-    },
-    {
-      "label": "plan.md File",
-      "file_type": "code",
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "jarvis_plan_md",
-      "community": 0,
-      "norm_label": "plan.md file"
-    },
-    {
-      "label": "tasks.md File",
+      "label": "tasks.md",
       "file_type": "code",
       "source_file": "jarvis.md",
       "source_location": null,
@@ -183,10 +196,10 @@
       "contributor": null,
       "id": "jarvis_tasks_md",
       "community": 0,
-      "norm_label": "tasks.md file"
+      "norm_label": "tasks.md"
     },
     {
-      "label": "markitdown Tool",
+      "label": "plan.md",
       "file_type": "code",
       "source_file": "jarvis.md",
       "source_location": null,
@@ -194,9 +207,74 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "markitdown_tool",
-      "community": 1,
-      "norm_label": "markitdown tool"
+      "id": "jarvis_plan_md",
+      "community": 0,
+      "norm_label": "plan.md"
+    },
+    {
+      "label": "memory.md",
+      "file_type": "code",
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jarvis_memory_md",
+      "community": 0,
+      "norm_label": "memory.md"
+    },
+    {
+      "label": "changelog.md",
+      "file_type": "code",
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jarvis_changelog_md",
+      "community": 0,
+      "norm_label": "changelog.md"
+    },
+    {
+      "label": "readme.md",
+      "file_type": "code",
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jarvis_readme_md",
+      "community": 0,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "claude.md",
+      "file_type": "code",
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jarvis_claude_md",
+      "community": 3,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": ".gitignore",
+      "file_type": "code",
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jarvis_gitignore",
+      "community": 0,
+      "norm_label": ".gitignore"
     },
     {
       "label": "Ingestion Pipeline",
@@ -207,8 +285,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ingestion_pipeline",
-      "community": 1,
+      "id": "jarvis_ingestion_pipeline",
+      "community": 2,
       "norm_label": "ingestion pipeline"
     },
     {
@@ -220,8 +298,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "synthesis_engine",
-      "community": 1,
+      "id": "jarvis_synthesis_engine",
+      "community": 2,
       "norm_label": "synthesis engine"
     },
     {
@@ -233,12 +311,12 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "forge_engine",
-      "community": 2,
+      "id": "jarvis_forge_engine",
+      "community": 1,
       "norm_label": "forge engine"
     },
     {
-      "label": "Registry Mapping",
+      "label": "Cleanup",
       "file_type": "concept",
       "source_file": "jarvis.md",
       "source_location": null,
@@ -246,12 +324,12 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "registry_mapping",
+      "id": "jarvis_cleanup",
       "community": 1,
-      "norm_label": "registry mapping"
+      "norm_label": "cleanup"
     },
     {
-      "label": "System Tracking",
+      "label": "Query",
       "file_type": "concept",
       "source_file": "jarvis.md",
       "source_location": null,
@@ -259,83 +337,254 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "system_tracking",
-      "community": 3,
-      "norm_label": "system tracking"
-    },
-    {
-      "label": "Distillation Process",
-      "file_type": "concept",
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "distillation_process",
-      "community": 2,
-      "norm_label": "distillation process"
-    },
-    {
-      "label": "Public Promotion",
-      "file_type": "concept",
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "public_promotion",
-      "community": 2,
-      "norm_label": "public promotion"
-    },
-    {
-      "label": "Query Flow",
-      "file_type": "concept",
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "query_flow",
-      "community": 2,
-      "norm_label": "query flow"
-    },
-    {
-      "label": "Bootstrap Script",
-      "file_type": "code",
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "bootstrap_script",
+      "id": "jarvis_query",
       "community": 0,
-      "norm_label": "bootstrap script"
+      "norm_label": "query"
+    },
+    {
+      "label": "Graphify Knowledge Retrieval",
+      "file_type": "concept",
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "jarvis_graphify_knowledge_retrieval",
+      "community": 4,
+      "norm_label": "graphify knowledge retrieval"
     }
   ],
   "links": [
     {
-      "relation": "creates",
+      "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "jarvis.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "bootstrap_script",
+      "source": "jarvis_jarvis",
+      "target": "jarvis_agents_md"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_jarvis",
+      "target": "jarvis_architecture_md"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_jarvis",
+      "target": "jarvis_bootstrap_py"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_jarvis",
+      "target": "jarvis_changelog_md"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_jarvis",
+      "target": "jarvis_claude_md"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_jarvis",
+      "target": "jarvis_cleanup"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_jarvis",
+      "target": "jarvis_design_md"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_jarvis",
+      "target": "jarvis_forge_engine"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_jarvis",
+      "target": "jarvis_gitignore"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_jarvis",
+      "target": "jarvis_graphify"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_jarvis",
+      "target": "jarvis_graphify_knowledge_retrieval"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_jarvis",
+      "target": "jarvis_ingestion_pipeline"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_jarvis",
+      "target": "jarvis_map_md"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_jarvis",
+      "target": "jarvis_markitdown"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_jarvis",
+      "target": "jarvis_memory_md"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_jarvis",
+      "target": "jarvis_plan_md"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_jarvis",
+      "target": "jarvis_public"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_jarvis",
+      "target": "jarvis_query"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_jarvis",
+      "target": "jarvis_readme_md"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_jarvis",
+      "target": "jarvis_setup_md"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_jarvis",
+      "target": "jarvis_source_md"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_jarvis",
       "target": "jarvis_source_raw"
     },
     {
-      "relation": "writes_to",
+      "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "jarvis.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "ingestion_pipeline",
-      "target": "jarvis_source_raw"
+      "source": "jarvis_jarvis",
+      "target": "jarvis_synthesis_engine"
     },
     {
       "relation": "references",
@@ -344,28 +593,8 @@
       "source_file": "jarvis.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "jarvis_source_raw",
-      "target": "jarvis_agents_md"
-    },
-    {
-      "relation": "creates",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "bootstrap_script",
-      "target": "jarvis_source_md"
-    },
-    {
-      "relation": "writes_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "ingestion_pipeline",
-      "target": "jarvis_source_md"
+      "source": "jarvis_jarvis",
+      "target": "jarvis_tasks_md"
     },
     {
       "relation": "references",
@@ -374,137 +603,7 @@
       "source_file": "jarvis.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "jarvis_source_md",
-      "target": "jarvis_agents_md"
-    },
-    {
-      "relation": "reads_from",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "synthesis_engine",
-      "target": "jarvis_source_md"
-    },
-    {
-      "relation": "creates",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "bootstrap_script",
-      "target": "jarvis_wiki"
-    },
-    {
-      "relation": "produces",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "distillation_process",
-      "target": "jarvis_wiki"
-    },
-    {
-      "relation": "reads_from",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "forge_engine",
-      "target": "jarvis_wiki"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "jarvis_wiki",
-      "target": "jarvis_agents_md"
-    },
-    {
-      "relation": "reads_from",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "query_flow",
-      "target": "jarvis_wiki"
-    },
-    {
-      "relation": "writes_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "synthesis_engine",
-      "target": "jarvis_wiki"
-    },
-    {
-      "relation": "creates",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "bootstrap_script",
-      "target": "jarvis_public"
-    },
-    {
-      "relation": "writes_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "forge_engine",
-      "target": "jarvis_public"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "jarvis_public",
-      "target": "jarvis_agents_md"
-    },
-    {
-      "relation": "produces",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "public_promotion",
-      "target": "jarvis_public"
-    },
-    {
-      "relation": "reads_from",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "query_flow",
-      "target": "jarvis_public"
-    },
-    {
-      "relation": "creates",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "bootstrap_script",
+      "source": "jarvis_jarvis",
       "target": "jarvis_temp"
     },
     {
@@ -514,28 +613,8 @@
       "source_file": "jarvis.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "jarvis_temp",
-      "target": "jarvis_agents_md"
-    },
-    {
-      "relation": "creates",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "bootstrap_script",
-      "target": "jarvis_map_md"
-    },
-    {
-      "relation": "writes_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "ingestion_pipeline",
-      "target": "jarvis_map_md"
+      "source": "jarvis_jarvis",
+      "target": "jarvis_wiki"
     },
     {
       "relation": "references",
@@ -544,37 +623,27 @@
       "source_file": "jarvis.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "jarvis_map_md",
-      "target": "jarvis_agents_md"
+      "source": "jarvis_graphify_knowledge_retrieval",
+      "target": "jarvis_graphify"
     },
     {
-      "relation": "implements",
+      "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "jarvis.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "registry_mapping",
-      "target": "jarvis_map_md"
+      "source": "jarvis_ingestion_pipeline",
+      "target": "jarvis_markitdown"
     },
     {
-      "relation": "writes_to",
+      "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "jarvis.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "synthesis_engine",
-      "target": "jarvis_map_md"
-    },
-    {
-      "relation": "creates",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "bootstrap_script",
+      "source": "jarvis_bootstrap_py",
       "target": "jarvis_agents_md"
     },
     {
@@ -584,170 +653,280 @@
       "source_file": "jarvis.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "jarvis_architecture_md",
-      "target": "jarvis_agents_md"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "jarvis_changelog_md",
-      "target": "jarvis_agents_md"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "jarvis_design_md",
-      "target": "jarvis_agents_md"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "jarvis_memory_md",
-      "target": "jarvis_agents_md"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "jarvis_plan_md",
-      "target": "jarvis_agents_md"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "jarvis_setup_md",
-      "target": "jarvis_agents_md"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "jarvis_tasks_md",
-      "target": "jarvis_agents_md"
-    },
-    {
-      "relation": "creates",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "bootstrap_script",
-      "target": "jarvis_design_md"
-    },
-    {
-      "relation": "creates",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "bootstrap_script",
+      "source": "jarvis_bootstrap_py",
       "target": "jarvis_architecture_md"
     },
     {
-      "relation": "creates",
+      "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "jarvis.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "bootstrap_script",
-      "target": "jarvis_setup_md"
-    },
-    {
-      "relation": "creates",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "bootstrap_script",
-      "target": "jarvis_memory_md"
-    },
-    {
-      "relation": "writes_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "system_tracking",
-      "target": "jarvis_memory_md"
-    },
-    {
-      "relation": "creates",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "jarvis.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "bootstrap_script",
+      "source": "jarvis_bootstrap_py",
       "target": "jarvis_changelog_md"
     },
     {
-      "relation": "writes_to",
+      "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "jarvis.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "system_tracking",
-      "target": "jarvis_changelog_md"
+      "source": "jarvis_bootstrap_py",
+      "target": "jarvis_claude_md"
     },
     {
-      "relation": "creates",
+      "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "jarvis.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "bootstrap_script",
+      "source": "jarvis_bootstrap_py",
+      "target": "jarvis_design_md"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_bootstrap_py",
+      "target": "jarvis_gitignore"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_bootstrap_py",
+      "target": "jarvis_map_md"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_bootstrap_py",
+      "target": "jarvis_memory_md"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_bootstrap_py",
       "target": "jarvis_plan_md"
     },
     {
-      "relation": "creates",
+      "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "jarvis.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "bootstrap_script",
+      "source": "jarvis_bootstrap_py",
+      "target": "jarvis_public"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_bootstrap_py",
+      "target": "jarvis_readme_md"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_bootstrap_py",
+      "target": "jarvis_setup_md"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_bootstrap_py",
+      "target": "jarvis_source_md"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_bootstrap_py",
+      "target": "jarvis_source_raw"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_bootstrap_py",
       "target": "jarvis_tasks_md"
     },
     {
-      "relation": "uses",
+      "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "jarvis.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "ingestion_pipeline",
-      "target": "markitdown_tool"
+      "source": "jarvis_bootstrap_py",
+      "target": "jarvis_temp"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_bootstrap_py",
+      "target": "jarvis_wiki"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_ingestion_pipeline",
+      "target": "jarvis_source_raw"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_ingestion_pipeline",
+      "target": "jarvis_source_md"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_synthesis_engine",
+      "target": "jarvis_source_md"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_cleanup",
+      "target": "jarvis_wiki"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_forge_engine",
+      "target": "jarvis_wiki"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_synthesis_engine",
+      "target": "jarvis_wiki"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_forge_engine",
+      "target": "jarvis_public"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_cleanup",
+      "target": "jarvis_map_md"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_claude_md",
+      "target": "jarvis_agents_md"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_ingestion_pipeline",
+      "target": "jarvis_synthesis_engine"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_synthesis_engine",
+      "target": "jarvis_forge_engine"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "jarvis.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "jarvis_forge_engine",
+      "target": "jarvis_cleanup"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "7911f76253a4be48bb3923c7b140d6be2b8a4a0a"
+  "built_at_commit": "f16daa7724b382fbfc25750fe1d945acaddf4f91"
 }
